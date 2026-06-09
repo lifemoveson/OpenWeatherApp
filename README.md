@@ -63,7 +63,6 @@ https://openweathermap.org/img/wn/{icon}@2x.png
 ## 🚀 How to Run
 
 1. Clone the repository
-bash git clone https://github.com/yourusername/openweather-app.git
 2. Open in Android Studio
 3. Add your API key in: 
 object ApiKeys {
