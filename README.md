@@ -34,16 +34,7 @@ It allows users to search for a city, country or city, state and country for USA
 
 ## 🏗️ Architecture
 
-UI (Compose)
-↓
-ViewModel
-↓
-UseCase
-↓
-Repository
-↓
-Remote Data Source (Retrofit)
-
+UI (Compose) -> ViewModel -> UseCase -> Repository -> Remote Data Source (Retrofit)
 
 ---
 
