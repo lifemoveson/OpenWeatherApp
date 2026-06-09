@@ -34,3 +34,59 @@ It allows users to search for a city, country or city, state and country for USA
 
 ## 🏗️ Architecture
 
+UI (Compose)
+↓
+ViewModel
+↓
+UseCase
+↓
+Repository
+↓
+Remote Data Source (Retrofit)
+
+
+---
+
+## 🌐 API Used
+
+OpenWeatherMap API:
+https://api.openweathermap.org/data/2.5/weather
+
+Weather Icon:
+https://openweathermap.org/img/wn/{icon}@2x.png
+
+
+---
+
+## 📱 Screens
+
+### Weather Search Screen
+- Search bar for city input
+- Weather result card
+- Loading indicator
+- Error handling
+- Offline indicator
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+bash git clone https://github.com/yourusername/openweather-app.git
+2. Open in Android Studio
+3. Add your API key in: 
+object ApiKeys {
+    const val OPEN_WEATHER_KEY = "YOUR_API_KEY"
+}
+4. Run the app on emulator or device
+
+🧪 Testing
+
+Unit tests cover:
+
+Successful weather fetch
+Network failure handling
+Timeout handling
+Connectivity state updates
+
+Run tests: ./gradlew test
