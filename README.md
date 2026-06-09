@@ -84,9 +84,9 @@ object ApiKeys {
 
 Unit tests cover:
 
-Successful weather fetch
-Network failure handling
-Timeout handling
-Connectivity state updates
+1. Successful weather fetch
+2. Network failure handling
+3. Timeout handling
+4. Connectivity state updates
 
 Run tests: ./gradlew test
